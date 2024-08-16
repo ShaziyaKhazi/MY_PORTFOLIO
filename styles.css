@@ -1,3 +1,5 @@
+/* Existing styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -131,4 +133,13 @@ a:hover {
 /* Styling icons inside buttons */
 .btn i {
     margin-right: 8px; /* Space between icon and text */
+}
+
+/* New profile photo styling */
+.profile-photo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%; /* Optional: makes the photo circular */
+    display: block;
+    margin: 20px auto; /* Centers the photo */
 }
