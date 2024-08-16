@@ -4,6 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333;
+    background-color: #f4f4f4; /* Light grey background for the entire page */
 }
 
 nav {
@@ -37,6 +38,9 @@ nav ul li a:hover {
 .section {
     padding: 60px 0;
     text-align: center;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
 }
 
 .container {
@@ -73,3 +77,58 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Button styling for the contact section */
+.btn {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 5px; /* Space between buttons */
+}
+
+.github-btn {
+    background-color: #333; /* GitHub black */
+}
+.github-btn:hover {
+    background-color: #000; /* Darker black on hover */
+}
+
+.linkedin-btn {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+.linkedin-btn:hover {
+    background-color: #005582; /* Darker blue on hover */
+}
+
+.leetcode-btn {
+    background-color: #f89f1b; /* LeetCode orange */
+}
+.leetcode-btn:hover {
+    background-color: #d67800; /* Darker orange on hover */
+}
+
+.hackerrank-btn {
+    background-color: #2ec866; /* HackerRank green */
+}
+.hackerrank-btn:hover {
+    background-color: #28a054; /* Darker green on hover */
+}
+
+.gfg-btn {
+    background-color: #0f9d58; /* GeeksforGeeks green */
+}
+.gfg-btn:hover {
+    background-color: #0a6f3f; /* Darker green on hover */
+}
+
+   
+ 
+
+
