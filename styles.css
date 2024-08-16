@@ -98,28 +98,24 @@ a:hover {
 }
 .github-btn:hover {
     background-color: #000; /* Darker black on hover */
-}
 
 .linkedin-btn {
     background-color: #0077b5; /* LinkedIn blue */
 }
 .linkedin-btn:hover {
     background-color: #005582; /* Darker blue on hover */
-}
 
 .leetcode-btn {
     background-color: #f89f1b; /* LeetCode orange */
 }
 .leetcode-btn:hover {
     background-color: #d67800; /* Darker orange on hover */
-}
 
 .hackerrank-btn {
     background-color: #2ec866; /* HackerRank green */
 }
 .hackerrank-btn:hover {
     background-color: #28a054; /* Darker green on hover */
-}
 
 .gfg-btn {
     background-color: #0f9d58; /* GeeksforGeeks green */
@@ -127,8 +123,3 @@ a:hover {
 .gfg-btn:hover {
     background-color: #0a6f3f; /* Darker green on hover */
 }
-
-   
- 
-
-
